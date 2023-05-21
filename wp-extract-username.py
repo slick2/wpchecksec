@@ -40,5 +40,5 @@ def extract_usernames_rest_api(wordpress_url):
         return []
 
 if __name__ == "__main__":
-   usernames = extract_usernames_rest_api("https://wpuser:password@dev.careydayrit.com")
+   usernames = extract_usernames_rest_api("https://dev.careydayrit.com")
    print(usernames)
